@@ -1,0 +1,135 @@
+@font-face {
+    font-family: FontinSansBold;
+    src: url('/styles/fonts/fontin_sans_b_45b-webfont.eot');
+    src: url('/styles/fonts/fontin_sans_b_45b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/styles/fonts/fontin_sans_b_45b-webfont.woff') format('woff'),
+         url('/styles/fonts/fontin_sans_b_45b-webfont.ttf') format('truetype'),
+         url('/styles/fonts/fontin_sans_b_45b-webfont.svg#FontinSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: FontinSansBoldItalic;
+    src: url('/styles/fonts/fontin_sans_bi_45b-webfont.eot');
+    src: url('/styles/fonts/fontin_sans_bi_45b-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/styles/fonts/fontin_sans_bi_45b-webfont.woff') format('woff'),
+         url('/styles/fonts/fontin_sans_bi_45b-webfont.ttf') format('truetype'),
+         url('/styles/fonts/fontin_sans_bi_45b-webfont.svg#FontinSansBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {background:url(/files/images/microsites/etp/bg.jpg) no-repeat top center #fff;}
+h1.home a {
+    border-top: 5px solid #000000;
+    color: #000000;
+    display: block;
+    font: 1em FontinSansBold,sans-serif;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+.pagetitles h1 {
+    border-left: 1px solid #9F9575;
+    color: #857B5C;
+    display: table-cell;
+    font: 57px FontinSansBold,sans-serif;
+    height: 145px;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+#banners h1 {
+    border-top: 8px solid #D20000;
+    color: #D20000;
+    font: 33px FontinSansBold,sans-serif;
+    text-transform: uppercase;
+	margin-top:0;
+}
+h2.home a {
+    border-top: 5px solid #000000;
+    color: #000000;
+    display: block;
+    font: 1.20em FontinSansBold,sans-serif;
+    padding-top: 5px;
+    text-transform: uppercase;
+}
+
+#subcontent h2, h2 {
+    color: #D20000;
+    font: 26px FontinSansBold,sans-serif;
+    text-transform: uppercase;
+}
+
+#subcontent h3 {
+    color: #D20000;
+    font: 20px FontinSansBold,sans-serif;
+    text-transform: none;
+}
+
+
+p.home a {
+    background: url("/files/images/microsites/etp/trans_bg.png") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    display: block;
+    margin: 0;
+	margin-top:-6px;
+    padding: 5px;
+	font-size:14px;
+}
+.sidenav ul.menu li.expanded a.active,.sidenav ul.menu li.expanded ul li.expanded a.active,.sidenav ul.menu li.expanded ul li.expanded ul li.expanded a.active,.sidenav ul.menu li.expanded ul li.expanded ul li.expanded ul li.expanded a.active{background:#D20000;}
+
+.caption {
+	font-size:.8em;
+}
+
+
+.navbar {
+	background-color: #C7B987;
+}
+	
+	.navbar-inner {
+  background-color: #C7B987;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-image: none;
+  background-repeat: repeat-x;
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  filter: none;
+  *zoom: 1;
+  -webkit-box-shadow: none;
+     -moz-box-shadow: none;
+          box-shadow: none;
+		    padding: 0 !important;
+			  border: none;
+}
+
+.navbar .nav > li > a {
+  color: #5A533D;
+  padding: 11.8px 17px 11.8px 17px;
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+  color: #fff;
+  padding: 11.8px 17px 11.8px 17px;
+  text-decoration: none;
+  background-color: #857B5A;
+}
+
+.navbar .nav > .active > a,
+.navbar .nav > .active > a:hover,
+.navbar .nav > .active > a:focus {
+  color: #fff;
+  text-decoration: none;
+  background-color: #857B5A;
+  -webkit-box-shadow:none;
+     -moz-box-shadow:none;
+          box-shadow:none;
+		 padding: 11.8px 17px 11.8px 17px;
+}
