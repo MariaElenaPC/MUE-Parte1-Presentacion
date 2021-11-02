@@ -1,0 +1,513 @@
+/*start: GENERAL*/
+/*end:   GENERAL*/
+
+/*start: TOP BANNER + NAVIGATION*/
+/* Desktops and laptops ----------- */
+/* LARGE SCREEN ----------- */
+@media only screen  and (min-width : 1824px) {
+
+}
+/* MEDIUM SCREEN ----------- */
+@media only screen and (max-width:1460px){ 
+}
+@media only screen  and (min-width : 1224px) {
+
+}
+@media only screen and (max-width:1024px){ 
+}
+@media only screen and (min-width:1151px){
+	/* Navigation horizontal / widest */
+		/* #navMarsTabs */
+		#navMarsTabs{ margin-top:15px;  width:auto;  float:right;  z-index:100; }
+		#navMarsTabs #lnk_mars.navMarsTabs_sub .submenu{ width:255px;  margin-left:-135px}
+	/*
+	#lnk_mars.navMarsTabs_sub .submenu{ width:300px;  margin-left:-215px}
+	#lnk_mission.navMarsTabs_sub .submenu{width: 225px;margin-left:-150px;}
+	#lnk_multimedia.navMarsTabs_sub .submenu{ width:125px;  margin-left:-20px}
+	#lnk_multimedia.navMarsTabs_sub .submenu:before{left:70%;}
+	#lnk_news.navMarsTabs_sub .submenu{ width:160px;  margin-left:-70px}
+	#lnk_participate.navMarsTabs_sub .submenu{ width:185px;  margin-left:-95px}
+	#lnk_news.navMarsTabs_sub .submenu{}
+	#lnk_news.navMarsTabs_sub:hover ul.submenu:before, #lnk_news.navMarsTabs_sub a:hover ul.submenu:before, #lnk_news.navMarsTabs_sub.hover_effect ul.submenu:before{ left:70%}
+	#navMarsSearch{ padding-right:5px}
+	#navMarsTabs #lnk_mars.navMarsTabs_sub a{ color: white;}
+	#navMarsTabs #lnk_mars.navMarsTabs_sub ul.submenu a:hover, #navMarsTabs #lnk_mars.navMarsTabs_sub a:hover{ color:gold}
+	#navMarsTabs #lnk_mars.navMarsTabs_sub ul.submenu a{ color: white;}
+	#navMarsTabs #lnk_mars.navMarsTabs_sub ul.submenu li:first-child a{ color:#f4ae77}
+	#navMarsTabs #lnk_mars.navMarsTabs_sub ul.submenu li:first-child{ margin:0 0 10px}
+	*/
+	#navMarsTabs #lnk_mars.navMarsTabs_sub ul.submenu li{ margin:0 0 0 10px}
+	#navMarsTabs #lnk_mars.navMarsTabs_sub:before{ background:rgba(124,113,110,0.6);  float:left;  width:1px;  height:17px;  content:' ';  position:relative;  right:7px;  top:5px;visibility: visible;opacity: 1; transition: visibility 0s linear 0.33s, opacity 0.33s linear;}
+	/*.homepage #navMarsTabs #lnk_mars.navMarsTabs_sub:before{ background:rgba(255,255,255,0.5);}*/
+	#navMarsTabs #lnk_mars.navMarsTabs_sub{ width:70px}
+	#navMarsTabs #lnk_mission.navMarsTabs_sub{ width:75px}
+	#navMarsTabs #lnk_timeline.navMarsTabs_sub{ width:75px}
+	#navMarsTabs #lnk_spacecraft.navMarsTabs_sub{ width:95px}
+	#navMarsTabs #lnk_multimedia.navMarsTabs_sub{ width:95px}
+	#navMarsTabs #lnk_news.navMarsTabs_sub{ width:60px}
+	#navMarsTabs #lnk_participate.navMarsTabs_sub{ width:95px; padding-right:10px;}
+	#navMarsTabs .navMarsTabs_sub:last-child{ padding-right:15px; padding-bottom:15px;}
+	#navMarsTabs .navMarsTabs_sub{ display:inline-block;  vertical-align:top;  text-align:center;  height:35px; padding-right:0}
+	#navMarsTabs .submenu a{font-size:14px; color:#808080;font-weight:500}
+	#navMarsTabs .submenu a:hover{ color:#222;  text-decoration:none}
+	#navMarsTabs .submenu li{ padding:1px 10px; padding: .5em 0;margin: 0 1.5em; font-size: 0.93rem;}
+	#navMarsTabs a:hover{ color:white;  text-decoration:none}
+	/*#navMarsTabs{ margin-top:5px;  width:auto;  float:right;  z-index:100}*/
+	.navMarsTabs_sub .submenu{ position:relative;  visibility:hidden;  opacity:0;  z-index:10;  margin:10px 0 0;  text-align:left;  border-radius:3px;  position:relative;  margin-left:-115px;  padding-bottom:10px;  box-shadow:rgba(0,0,0,0.65) 2px 2px 15px;  background:white;   transition: 0.2s 0s;}
+	.navMarsTabs_sub:hover ul.submenu, .navMarsTabs_sub ul.submenu:hover, .navMarsTabs_sub.hover_effect ul.submenu{ visibility:visible;  opacity:1;  width:280px; transition: 0.2s 1s; transition-delay: 0s;}
+	.navMarsTabs_sub:hover ul.submenu:before, .navMarsTabs_sub a:hover ul.submenu:before, .navMarsTabs_sub.hover_effect ul.submenu:before{ visibility:visible;  opacity:1;  transition:opacity 1s linear;  width:0;  height:0;  border-style:solid;  border-width:0 10px 10px 10px;  border-color:transparent transparent white transparent;  display:block;  content:"";  position:relative;  top:-10px;  left:50%;  z-index:10; transition: 0.5s 0s;transition-delay: 0s;}
+	#lnk_mission.navMarsTabs_sub:hover ul.submenu:before, #lnk_mission.navMarsTabs_sub a:hover ul.submenu:before, #lnk_mission.navMarsTabs_sub.hover_effect ul.submenu:before{left:50%}
+	#lnk_timeline.navMarsTabs_sub:hover ul.submenu:before, #lnk_timeline.navMarsTabs_sub a:hover ul.submenu:before, #lnk_timeline.navMarsTabs_sub.hover_effect ul.submenu:before{left:50%}
+	#lnk_spacecraft.navMarsTabs_sub:hover ul.submenu:before, #lnk_spacecraft.navMarsTabs_sub a:hover ul.submenu:before, #lnk_spacecraft.navMarsTabs_sub.hover_effect ul.submenu:before{left:54%}
+	#lnk_news.navMarsTabs_sub:hover ul.submenu:before, #lnk_news.navMarsTabs_sub a:hover ul.submenu:before, #lnk_news.navMarsTabs_sub.hover_effect ul.submenu:before{left:50%}
+	#lnk_multimedia.navMarsTabs_sub:hover ul.submenu:before, #lnk_multimedia.navMarsTabs_sub a:hover ul.submenu:before, #lnk_multimedia.navMarsTabs_sub.hover_effect ul.submenu:before{left:54%}
+	#lnk_participate.navMarsTabs_sub:hover ul.submenu:before, #lnk_participate.navMarsTabs_sub a:hover ul.submenu:before, #lnk_participate.navMarsTabs_sub.hover_effect ul.submenu:before{left:54%}
+	#lnk_mars.navMarsTabs_sub:hover ul.submenu:before, #lnk_mars.navMarsTabs_sub a:hover ul.submenu:before, #lnk_mars.navMarsTabs_sub.hover_effect ul.submenu:before{left:65%}
+	#navMarsTabs .navMarsTabs_sub .arrow_box {display: none;}
+	/* s:Search */
+	form.nav_search{
+		max-width: 216px;
+		vertical-align: middle;
+		margin-right: 1em;
+		color: white;
+		display: inline-block;
+		position: relative;
+		margin: -10px 0 0 0;
+	}
+	form.nav_search .search_field {
+		width: 37px;
+		padding-right: 0;
+		padding-left: 0;
+		height: 34px;
+		background-color: rgba(255,255,255,0.3);
+		font-weight: 200;
+		font-size: 16px;
+		border: none;
+		border-radius: 4px;
+		text-rendering: optimizeLegibility;
+		line-height: normal;
+		margin: 0;
+		vertical-align: baseline;
+		color:transparent
+	}	
+	.active form.nav_search .search_field {
+		color: white;
+	}
+	.overlay_search .search_submit {
+		padding: 0;
+		cursor: pointer;
+		width: 42px;
+		height: 42px;
+		background: url(/layout/mer/images/ui_sprite@2x.png) -131px -5px;
+		background-size: 300px;
+		position: absolute;
+		right: -5px;
+		top: -3px;
+		border: none;
+		margin-left: -44px;
+		opacity: .8;
+	}
+	#lnk_search.active form.nav_search .search_field {
+		width: 98%;
+		padding: 0 0 0 2%
+	}
+	#navMarsTabs #lnk_search {margin-right:15px;display:inline-block;}
+	#lnk_search input::placeholder { opacity:0; color:white; }
+	/* e:Search */
+ /*s:images
+	#imagesList .grid_view.grid_gallery li{ width: calc(98% / 5 - 10px) !important }
+	.front .info .featureTitle{font-size:0.8em;line-height: normal}*/
+ /*e:images*/
+}
+/* MEDIUM TO FIT NAV --------*/
+/*Nav for example Mars2020 Rover page:*/
+@media only screen and (max-width:1200px){
+ /*s:images
+ #imagesList .grid_view.grid_gallery li{ width: calc(98% / 4 - 10px) !important }*/
+ /*e:images*/
+ /*s:sidebar*/
+	.main_withsidebar .modVideo .videoInformation h2.VideoTitle{font-size:14px;padding:0;}
+	.main_withsidebar .VideoCaption.slide-caption {display:none !important;}
+ /*e:sidebar*/
+}
+
+/* MEDIUM2 TO FIT NAV --------*/
+/*Nav for example Mars2020 Rover page:*/
+@media only screen and (min-width:885px){
+    #navMarsTabs{ margin-top:15px; }
+}
+@media only screen and (max-width:1101px){
+ /*s:images
+ #imagesList .grid_view.grid_gallery li{ width: calc(98% / 3 - 10px) !important }*/
+ /*e:images*/
+/* }
+@media only screen and (max-width:900px){ */
+	.topSubNavInnerInner h1#pageTitleText a{font-size: 110% !important}
+	.topSubNavInnerInner #pageTitleText .breadcrumbArrow{font-size: 100%!important}
+	.topSubNavInnerInner .subNavItem a{font-size: 90% !important}
+	.topSubNavInnerInner .subNavItem{font-size: 13px !important; padding: 0 5px}
+
+	/* Navigation Middle Break */
+	/* #navMarsTabs {margin-top:0;} */
+	/* #mars2020 .is-sticky #navMarsTabs {margin-top:0;} */
+
+}
+/* SMALL SCREEN ----------- */
+@media only screen and (max-width:1150px){ 
+	#navMarsIcons .menuButton, #navMarsSearch input{ vertical-align:top;  margin-top:0}
+	#navMarsIcons .menuButton{ visibility:visible;  background-image:url('/layout/mer/images/navMarsMenu.png');  background-size:cover;  background-repeat:no-repeat;  width:25px;  height:25px;  cursor:pointer;  display:inline-block;  content:' '}
+	#navMarsSearch input.searchButton{ margin-top:0}
+	#navMarsSearch{display:none}
+	#navMarsTabs{ visibility:hidden}
+	#navMarsTabs{ z-index:100;  position:absolute;  width:100%;  background:#656c74}
+	#navMarsTabs{max-height:0}
+	#navMarsTabs a{ font-size:1.2em; font-weight:normal;}
+	#navMarsTabs.active{ visibility:visible;  max-height:none;  transition:max-height 1s ease-in;  overflow:hidden;padding:0 0 150px 0; margin: 0 auto;text-align:center;}
+	#navMarsTabs .navMarsTabs_sub{ display:block; text-align:left;  padding:1em 0 0 ; height:35px;  max-height:35px;  transition:max-height 1s ease-in; width:85%;margin: 0 auto;}
+	#navMarsTabs .navMarsTabs_sub .submenu{ max-height:0px;  transition:max-height 1s ease-in;  overflow:hidden; margin-top:-1em;background:#656c74}
+	#navMarsTabs .navMarsTabs_sub a.toplevel{pointer-events:none; cursor:pointer; padding: 0.5em .4em;display: inline-block;}
+	/* #navMarsTabs .navMarsTabs_sub#lnk_participate a.toplevel{pointer-events:visible} */
+	#navMarsTabs .gradient_line {
+		margin-left: auto;
+		margin-right: auto;
+		content: " ";
+		width: 100%;
+		height: 1px;
+		clear: both;
+		background: #e1e1e1;
+		background: -moz-linear-gradient(left, rgba(183,107,95,0), #e1e1e1, rgba(183,107,95,0));
+		background: -webkit-linear-gradient(left, rgba(183,107,95,0), #e1e1e1, rgba(183,107,95,0));
+		background: linear-gradient(left, rgba(183,107,95,0), #e1e1e1, rgba(183,107,95,0));
+	}
+	#navMarsTabs .navMarsTabs_sub .arrow_box{padding: 20px 20px;
+		float: right;
+		cursor: pointer;
+		margin: -0.4em -.8em 0 0;
+		display: block;
+		text-align: center;}
+	#navMarsTabs .navMarsTabs_sub .arrow_box .arrow{    width: 0;
+				height: 0;
+				border-left: 6px solid rgba(255,255,255,0);
+				border-right: 6px solid rgba(255,255,255,0);
+				border-top: 8px solid #fff;
+				float: right;}
+
+	#navMarsTabs .navMarsTabs_sub.active .arrow_box{    transform: rotate(180deg);
+		-ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=-1, M12=1.2246063538223773e-16, M21=-1.2246063538223773e-16, M22=-1, SizingMethod='auto expand')";}
+	#navMarsTabs .submenu li:before{ z-index:1;  bottom:-28px}
+	#navMarsTabs .submenu li:last-child:after{visibility:hidden}
+	#navMarsTabs .navMarsTabs_sub.active .submenu li{ padding:10px;  text-align:left;}
+	#navMarsTabs .navMarsTabs_sub.active .submenu li.submenu-line {padding: 0 10px; margin: 0;}
+	#navMarsTabs .navMarsTabs_sub.active .submenu li a { color: #84B0DD; font-size:1em;}
+	#navMarsTabs .navMarsTabs_sub.active .submenu{ max-height:none;  transition:max-height 1s ease-in}
+	/* #navMarsTabs .navMarsTabs_sub.active a.toplevel{} */
+	/* #navMarsTabs .navMarsTabs_sub.active#lnk_participate{ height:35px} */
+	#navMarsTabs .navMarsTabs_sub.active{ height:auto;  max-height:100vh;  transition:max-height 1s ease-in}
+	#navMarsTabs .navMarsTabs_sub.active ul.submenu{ visibility:visible;  display:block; position:relative;  margin:0}
+	#navMarsTabs .navMarsTabs_sub.watch-live {
+		position: absolute;
+		top: -16px;
+		visibility: visible;
+		right: 45px;
+		width: auto;
+	}
+	@media only screen and (max-width:884px){
+		#navMarsTabs .navMarsTabs_sub.watch-live {top: 4px;}
+	}
+	#navMarsTabs.active .navMarsTabs_sub.watch-live {
+		position: relative;
+		top: 0;
+		right: 0;
+		width: 85%;
+	}
+	/*search*/
+	#navMarsTabs #lnk_search form{margin-top: 30px;}
+	#navMarsTabs #lnk_search form, #navMarsTabs #lnk_search form input{ color:white;}
+	#navMarsTabs #lnk_search ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+		color: white;
+		opacity: 1; /* Firefox */
+		font-weight: 200;
+	  }
+	  #navMarsTabs #lnk_search :-ms-input-placeholder { /* Internet Explorer 10-11 */
+		color: white;
+		font-weight: 200;
+	  }
+	  #navMarsTabs #lnk_search ::-ms-input-placeholder { /* Microsoft Edge */
+		color: white;
+		font-weight: 200;
+	  }
+	input.search_field {
+		color: white;
+		background-color: rgba(255,255,255,0.3);
+		width: calc(85% - 1.2em);
+		padding-right: 20px;
+		height: 34px;
+		font-weight: 200;
+		font-size: 16px;
+		border: none;
+		border-radius: 4px;
+		padding-left: 1.1em;
+	}
+	.search_submit {
+		padding: 0;
+		cursor: pointer;
+		width: 42px;
+		height: 42px;
+		background: url(/layout/mer/images/ui_sprite@2x.png) -131px -5px;
+		background-size: 300px;
+		position: absolute;
+		right: 10px;
+		top: -3px;
+		border: none;
+		opacity: .8;
+		color: white;
+	}
+	form.nav_search.overlay_search {
+		width: 100%;
+		max-width: 320px;
+		display: inline-block;
+		vertical-align: middle;
+		position: relative;
+		color: white;
+	}
+	#navMarsTabs .navMarsTabs_sub#lnk_search {
+		margin: 0 auto;
+		text-align: center;
+		width: 300px;
+		color: white;
+	}
+	#top_marsBanner.menuactive #navMars{width:100%}
+	#top_marsBanner.menuactive #navMarsSearch input.searchBox{display:inline-block; width:75%; width:calc(100% - 75px); height:30px; top:0}
+	#top_marsBanner.menuactive #navMarsSearch{display:inline-block; width:75%; width:calc(100% - 135px)}
+	#top_marsBanner.menuactive #navMarsSearch{position:absolute; right:40px}
+	#top_marsBanner.menuactive #topSiteNavBox{padding-top:70px; background-color:#656c74}
+	#top_marsBanner.menuactive .bannerHome{ background-color:#656c74; padding-top:8px;margin-top:-8px;}
+	#topSubNav{ margin-top:35px}
+	/* .homepage section#features .slick-next, .homepage section#features .slick-prev{visibility:hidden; display:none !important} */
+	.menuactive #navMarsIcons .menuButton{ position:absolute;  right:0}
+	/* s:topSubNav TOP SUB NAVIGATION: CONTENT PAGES */
+	/* .topSubNavInnerInner .subNavItem{ display:none} */
+	#topSubNav{position:relative;background-color:#eee;}
+	/* #topSubNav #thisPageTitle{display:none;} */
+	#topSubNav #thisPageSubNavContent {display:inline-block;}
+	/* e:topSubNav TOP SUB NAVIGATION: CONTENT PAGES */
+
+ /*s:sidebar*/
+	.sidebar {width:200px;word-break: break-word;}
+	.main_withsidebar, #Newsroom.main_withsidebar {width:calc(100% - 250px);}
+ /*e:sidebar*/
+}
+@media only screen and (max-width:768px) {
+	/*s:sidebars*/
+	.main_withsidebar {width:calc(100% - 200px)}
+	.sidebar{width:180px; padding: 5px;}
+	.sectionInner.paddedRight.paddedLeft {padding-left:10px;padding-right:10px;}
+	table.tableListContent{ min-width:150px !important;}
+}
+@media only screen and (max-width:513px){
+	/* s:topSubNav TOP SUB NAVIGATION: CONTENT PAGES */
+	/* .topSubNavInnerInner .subNavItem{ display:none} */
+	#topSubNav{position:relative;background-color:#eee;}
+	/* #topSubNav #thisPageTitle{display:none;} */
+	#topSubNav #thisPageSubNavContent {display:inline-block;}
+	/* e:topSubNav TOP SUB NAVIGATION: CONTENT PAGES */
+	.section.pageIntro,.tall,.bgImageIntro,.bgImageIntro01,.minHeight500{ -webkit-background-size:contain;  -moz-background-size:contain;  -o-background-size:contain;  background-size:contain !important;  background-attachment:inherit;  min-height:300px !important;  background-position:center center !important}
+	/*s:sidebars*/
+	.main_withsidebar, #Newsroom.main_withsidebar{width:100%;}
+	.sidebar{width:calc(100% - 30px);float:none;}
+	/*display Mobile classes*/
+	.mobileOnly.sidebar, .mobileOnly.minHeight50{display:block;}
+	.desktopOnly.sidebar, .desktopOnly.minHeight50{display:none;}
+	/*e:sidebars*/
+ /*s:news*/
+
+ #newsList .list_view.grid_gallery li{margin-top:50px;}
+ #newsList .list_view.grid_gallery li .objectContainer{height:260px;}
+ #searchNews{width:100%;margin:0} 
+ #newsList .grid_view.grid_gallery li { width: calc(98% / 2 - 10px) !important;}
+ .view_selectors{right:2.5%;}
+ #newsList .list_view.grid_gallery li .objectContainer,
+ #newsList .list_view.grid_gallery li .listTextLabel{ width:100%; padding-left:0;}
+ #newsList .list_view.grid_gallery li .objectContainer .featureImgLarge { background-size:cover;height:100%;    background-position: top center !important;}
+ #newsList .list_view.grid_gallery li, #newsList .list_view.grid_gallery li .objectContainer, #newsList .list_view.grid_gallery li .listTextLabel{ width:100% !important;}
+ /* #newsList #searchNews{width:100%;margin-left:0;}
+ #newsList .newsListOptions{padding-right:0 !important; width: 100% !important; text-align: left !important;}
+ #newsList .view_selectors{right:0;}*/
+ /*e:news*/
+ /*s:images
+ #imagesList #searchImages,  #imagesList .list_view.grid_gallery li{width:100% !important;}
+ #imagesList .grid_gallery .view_selectors{right:0%; max-width: 1440px;}
+ #imagesList #searchForm .foundText{text-align:center;}
+ #imagesList .grid_view.grid_gallery li { width: calc(98% / 2 - 10px) !important;}*/
+ /*e:images*/
+ /*s:video players*/
+	.modVideo .videoInformation h2.VideoTitle{font-size:14px;padding:0;}
+	.VideoCaption.slide-caption {display:none !important;}
+ /*e:video players*/
+}
+@media only screen and (max-width:320px){ 
+	.topSubNavInnerInner h1#pageTitleText a{font-size:21px !important;}
+	#navMarsTabs{ float:none}
+	#topSubNav{ margin-top:24px}
+	.section.pageIntro,.tall,.bgImageIntro,.bgImageIntro01,.minHeight500{ min-height:200px !important}
+	.bannerHome .nasalogo {
+		width: 40px;
+	}
+	.nasalogo img {
+		width: 42px !important;
+		margin-top: 5px;
+	}
+}
+/*end:  TOP BANNER + NAVIGATION*/
+
+/*start: PAGE CONTENT: GENERAL*/
+/*end:   PAGE CONTENT: GENERAL*/
+
+/*start: PAGE SPECIFIC*/
+	/*s:home*/
+	/*e:home*/
+	/*s:overview*/
+@media only screen and (max-width:513px){
+	#Mars2020-Rover-Science .relatedResources.small ul.horizontalImages li{float:none;display:inline-block;}
+}
+	/*e:overview*/
+	/*s:timeline overview*/
+@media only screen and (max-width:430px){
+	h2.titleLabel.fontAlien.textAlignCenter.mobile-square {
+		line-height: 64px;
+	}
+}
+	/*e:timeline overview*/
+	/*s:instruments*/
+	/*e:instruments*/
+/*end:   PAGE SPECIFIC*/
+
+/*start: FOOTER*/
+/*end:   FOOTER*/
+
+
+
+
+
+
+/* COMMON BREAK POINTS */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	#Images-List-Header{height:445px !important}
+/*	#lnk_mars.navMarsTabs_sub .submenu{ width:100%}
+	#lnk_multimedia.navMarsTabs_sub .submenu{ width:100%}
+	#lnk_news.navMarsTabs_sub .submenu{ width:100%}
+	#top_marsBanner{height:120px !important}*/
+	#spacecraftInfo {padding:10px 5px 30px !important;}
+	.readMoreArrow{ bottom:-23px !important;}
+	.info_item.countdown_clock{display:block; height:80px;border-right:none;padding:0;}
+	.section.pageIntro,.tall,.bgImageIntro,.bgImageIntro01{ -webkit-background-size:contain;  -moz-background-size:contain;  -o-background-size:contain;  background-size:contain !important;  background-attachment:inherit;  min-height:inherit}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+/**********
+iPad 3
+**********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+/* iPhone 4 ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) {
+/* Styles */
+}
+
+/* iPhone 5 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 568px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* iPhone 6 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) {
+	#footer #usagov img{width:50%; height:auto}
+	#Images-List-Header{height:250px !important}
+	/* #lnk_mars.navMarsTabs_sub .submenu{ width:100%}
+	#lnk_multimedia.navMarsTabs_sub .submenu{ width:100%}
+	#lnk_news.navMarsTabs_sub .submenu{ width:100%}
+	#top_marsBanner{height:120px !important} */
+	.section.pageIntro,.tall,.bgImageIntro,.bgImageIntro01{ -webkit-background-size:contain;  -moz-background-size:contain;  -o-background-size:contain;  background-size:contain !important;  background-attachment:inherit;  min-height:inherit}
+
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+.Featured-Rotator-Box{top:0px !important;}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+.Featured-Rotator-Box{top:0px !important;}
+}
+
+/* iPhone 6+ ----------- */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S3 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 2){
+/* Styles */
+}
+
+/* Samsung Galaxy S4 ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+/* Samsung Galaxy S5 ----------- */
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : landscape) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-height: 640px) and (orientation : portrait) and (-webkit-device-pixel-ratio: 3){
+/* Styles */
+}
